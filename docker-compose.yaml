@@ -1,0 +1,7 @@
+services:
+  websocket:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "53000:3000"
